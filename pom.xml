@@ -31,16 +31,18 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <pluginManagement>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.1</version>
             <configuration>
-                <!-- Configure WAR file settings if needed -->
+		    <release>17</release>
             </configuration>
         </plugin>
     </plugins>
+    </pluginManagement>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
